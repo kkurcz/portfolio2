@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #F7F7F7;
+  border-bottom: solid 1px #DDDDDD;
+}
+
+.container-fluid {
+  background-color: #F7F7F7;
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 1300px;
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .gallery {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+#about {
+
+}
