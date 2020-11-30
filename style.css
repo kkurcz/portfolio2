@@ -52,16 +52,33 @@ body {
 
 .centered {
   position: absolute;
-  top: 30%;
+  top: 28%
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 786px){
+h1 {
+  font-size: 65px;
+}
+
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 700px){
   .centered {
     position: absolute;
-    top: 23%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
+
   }
 }
